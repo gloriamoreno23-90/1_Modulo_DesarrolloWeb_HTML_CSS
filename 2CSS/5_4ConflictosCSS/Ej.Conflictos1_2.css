@@ -1,0 +1,14 @@
+p{
+    background-color: blue ;
+    color: red;
+}
+
+#principal {
+    border-left: 20px solid black;
+}
+
+#especifico {
+    background-color: yellow;
+}
+
+
