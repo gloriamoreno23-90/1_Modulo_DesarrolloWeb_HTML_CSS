@@ -1,0 +1,10 @@
+body {
+    background-image: url(../5IntroduccionCSS/Imagen/paisaje.jpg);
+    background-attachment: fixed;
+}
+h1{
+    color: whitesmoke;
+}
+p {
+    color: whitesmoke;
+}

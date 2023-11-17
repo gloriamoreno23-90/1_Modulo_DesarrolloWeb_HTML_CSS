@@ -1,0 +1,7 @@
+body {
+    background-image: url(../5IntroduccionCSS/Imagen/paisaje.jpg);
+    background-repeat: repeat;
+}
+h1 {
+    color: whitesmoke;
+}
