@@ -1,0 +1,59 @@
+p {
+    background-color: yellow;
+}
+
+.special {
+    font-size: 24px;
+}
+
+div .highlight {
+    background-color: green;
+}
+
+a[href]{
+    color: blue;
+}
+
+img[src$=".jpg"] {
+    border: 2px red solid;
+}
+
+a:hover {
+    background-color: violet;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+input[type="text"]:focus{
+    border: 2px solid blue
+}
+
+.warning::before{
+    content: "\26a0";
+}
+
+p:last-child{
+    background-color: lightsalmon;
+}
+
+.note::after{
+    content: "\F5D2";
+}
+
+a:visited{
+    color: grey;
+}
+
+.quote::first-line{
+    color: palevioletred;
+}
+
+li:nth-child(odd){
+    font-weight: bold;
+}
