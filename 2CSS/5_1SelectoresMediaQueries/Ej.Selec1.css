@@ -1,0 +1,45 @@
+#primero {
+    background-color: red;
+    width: 100%;
+}
+
+#segundo {
+    background-color: red;
+    width: 100%;
+}
+
+body{
+    font-size: 11px;
+}
+
+@media screen and ((min-width: 600px) and (max-width:799px)) {
+    #primero {
+        width: 60%;
+        background-color: green;
+    }
+
+    #segundo {
+        width: 30%;
+        background-color: blue;
+    }
+
+    body{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #primero {
+        width: 80%;
+        background-color: violet;
+    }
+
+    #segundo {
+        width: 15%;
+        background-color: yellow;
+    }
+
+    body{
+        font-size: 14px;
+    }
+}
