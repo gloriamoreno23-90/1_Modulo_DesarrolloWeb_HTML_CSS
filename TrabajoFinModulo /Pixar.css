@@ -1,0 +1,111 @@
+header{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+h1{
+    font-family: waltograph;
+    font-size: 40px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.top{
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight:400;
+    font-weight: bolder;
+    font-style: normal;
+    margin-left: 43px;  
+}
+
+.top:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+h3{
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-weight: lighter;
+    font-style: normal;
+    text-align:left;
+    margin-left: 288px; 
+    margin-top: -15px;
+    margin-bottom: -12px;
+}
+
+img{
+    width: 240px;
+    height: 380px;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-left: -35px;
+    margin-bottom: -5px;
+    margin-right: -35px;
+    border: 3px solid white;
+    cursor: pointer;
+    
+    
+}
+
+a{
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight:400;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+a:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: yellow;
+    border: 1px solid black;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+}
+
+article{
+    background: pink;
+    border: -10px solid black;
+    margin-top: 5px;
+    padding: 0px;
+
+}
+
+figcaption{
+    background: lightgreen;
+    border: 1px solid black;
+    margin-left: -40px;
+}
+    
+
+
+
+    
+  
+    
+
+  
