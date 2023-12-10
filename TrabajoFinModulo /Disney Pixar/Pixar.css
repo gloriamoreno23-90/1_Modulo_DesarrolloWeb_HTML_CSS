@@ -44,15 +44,13 @@ h3{
 img{
     width: 240px;
     height: 380px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: -10px;
     margin-left: -35px;
     margin-bottom: -5px;
     margin-right: -35px;
     border: 3px solid white;
-    cursor: pointer;
-    
-    
+    cursor: pointer; 
 }
 
 a{
@@ -78,13 +76,11 @@ section{
     border: 1px solid black;
     margin-left: 85px;
     margin-right: 85px;
-    margin-bottom: 300px;
+    margin-bottom: 20px;
     margin-top: 20px;
     padding: 0px;
     align-items: center;
     justify-content: space-around;
-    
-  
 }
 
 article{
@@ -100,6 +96,38 @@ figcaption{
     border: 1px solid black;
     margin-left: -40px;
 }
+
+button{
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    color: #fff;
+    width: 240px;
+    height: 50px;
+    background-color: #0077da;
+    border-color: #0077da;
+    border-style:none;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight:400;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.button{
+    display: inline-flex;
+    height: 50px;
+    width: 1480px;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding-bottom: 60px;
+    
+}
+    
+
+
     
 
 
