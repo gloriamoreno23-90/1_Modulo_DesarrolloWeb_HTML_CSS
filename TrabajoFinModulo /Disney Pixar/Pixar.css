@@ -6,6 +6,10 @@ header{
     margin-top: -15px;
 }
 
+body{
+    background: white;
+}
+
 h1{
     font-family: waltograph;
     font-size: 40px;
@@ -36,9 +40,9 @@ h3{
     font-weight: lighter;
     font-style: normal;
     text-align:left;
-    margin-left: 288px; 
-    margin-top: -15px;
-    margin-bottom: -12px;
+    margin-left: 100px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img{
@@ -53,7 +57,7 @@ img{
     cursor: pointer; 
 }
 
-a{
+.middle{
     font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
@@ -72,8 +76,8 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: yellow;
-    border: 1px solid black;
+    background: white;
+    border: 1px solid white;
     margin-left: 85px;
     margin-right: 85px;
     margin-bottom: 20px;
@@ -84,16 +88,16 @@ section{
 }
 
 article{
-    background: pink;
-    border: -10px solid black;
+    background: white;
+    border: -10px solid white;
     margin-top: 5px;
     padding: 0px;
 
 }
 
 figcaption{
-    background: lightgreen;
-    border: 1px solid black;
+    background: white;
+    border: 1px solid white;
     margin-left: -40px;
 }
 
@@ -121,11 +125,102 @@ button{
     margin-top: -10px;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid white;
     padding-bottom: 60px;
-    
 }
-    
+
+h4{
+    display: flex;
+    justify-content: center;
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    border: 1px solid white;
+    margin-top: 0%;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: -25px;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.redesSociales a{
+    font-size: 20px;
+    color: black;
+}
+
+a:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.disneyBottom{
+    font-family: waltograph;
+    font-size: 35px;
+    font-weight:lighter;
+    border: 1px solid white;
+    padding-bottom: 30px;
+}
+
+.bottom1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    gap: 30px;
+    margin-top: -47px;
+}
+
+.bottom1 a{
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight:400;
+    font-style: normal;
+}
+
+a:hover{
+    color: lightskyblue;
+}
+
+.bottom2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.bottom2 a{
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight:400;
+    font-style: normal;
+}
+
+a:hover{
+    color: lightskyblue;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    font-family: InspireTWDC, AvenirNext, Matterhorn, InspireTWDC, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
+
+
+
 
 
     
