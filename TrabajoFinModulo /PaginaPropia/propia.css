@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    color: black;
+    margin-bottom: 20px;
+}
+
+header .comida-colombiana {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav .form-control-me-2 {
+    width: 600px;
+    border-radius: 100px;
+    
+}
+
+header nav input{
+    outline: none;
+}
+
+.container-1{
+    display: block;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 2px solid white;
+}
+
+.container-1 .row .col-12 h1{
+    margin-top: 50px;
+    margin-bottom: 20px; 
+    padding-right: -100px;
+    border: 2px solid white;
+}
+
+.container-1 .row .barra-1 span{
+    margin-bottom: 20px;
+}
+
+.container-1 .row .empanada-1{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.container-1 .row .empanada-1 img{
+    border-radius: 10px;
+    border: 5px solid darkgoldenrod;
+}
+
+.container-1 .row .ingredientes-section{
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.container-1 .row .masa-section{
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container-1 .row .preparacion-section{
+    border: 2px solid white;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.container-1 .row .preparacion-section .card-header{
+    font-size:larger;
+}
+
+.container-1 .row .pictures-section{
+    border: 1px solid white;
+    margin-bottom: 20px;
+    
+}
+
+.container-1 .row .pictures-section img{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 5px solid darkgoldenrod;
+}
+
+.container-1 .row .pictures-section .imagen-especial{
+    border: none;
+    margin-top: -30px;
+}
+
+.container-1 .row .final-section{
+    border: 1px solid white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-1 .row .final-section .dropdown-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
