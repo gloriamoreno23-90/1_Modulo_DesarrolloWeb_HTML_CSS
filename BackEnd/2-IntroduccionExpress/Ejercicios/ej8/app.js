@@ -1,6 +1,6 @@
 let express = require('express')
-let aleatorio = require('../ej7/function')
-let arrayCeros = require('../ej7/array')
+let aleatorio = require('./function')
+let arrayCeros = require('./array')
 
 let app = express()
 
